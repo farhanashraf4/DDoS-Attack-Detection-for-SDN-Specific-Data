@@ -12,16 +12,10 @@ This repository contains a Convolutional Neural Network (CNN)-based system desig
 - **Real-world Deployment:** Includes plans for integration with mitigation strategies to enhance SDN network resilience against evolving cyber threats.
 
 ## Repository Structure
-- **Jupyter notebook containing CNN model development.
-- **Script for data preprocessing using scikit-learn.
-- **Dependencies required for running the project.
-- **This file providing an overview of the project.
-
-## Usage
-To run the project:
-1. Install dependencies listed in `requirements.txt`.
-2. Execute `DDoS_SDN_CNN_Balanced_Classification.ipynb` for model development and evaluation.
-3. Use `data_preprocessing.py` for preparing datasets.
+- Jupyter notebook containing CNN model development.
+- Script for data preprocessing using scikit-learn.
+- Dependencies required for running the project.
+- his file providing an overview of the project.
 
 ## Dataset
 - **SDN DDoS Dataset:** Used for binary classification of DDoS vs. normal traffic.
