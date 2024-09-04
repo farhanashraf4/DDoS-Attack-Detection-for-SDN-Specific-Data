@@ -6,8 +6,7 @@
 This repository contains a Convolutional Neural Network (CNN)-based system designed for detecting DDoS attacks in Software-Defined Networking (SDN) environments. The system focuses on achieving high accuracy and scalability using TensorFlow and Keras for model development, scikit-learn for data preprocessing, and Python for implementation.
 
 ## Key Features
-- **Binary Classification:** Achieved >95% accuracy in distinguishing DDoS attacks from normal traffic using the SDN DDoS dataset.
-- **Multi-class Classification:** Successfully classified traffic types (TCP, UDP, BENIGN) with >90% accuracy in the SDN Flow dataset.
+- **Multi-class Classification:** Successfully classified traffic types (TCP, UDP, BENIGN) with >95% accuracy in the SDN Flow dataset.
 - **Performance Evaluation:** Confusion matrices and ROC curves demonstrate robust performance, minimizing false positives and maximizing true positives.
 - **Real-world Deployment:** Includes plans for integration with mitigation strategies to enhance SDN network resilience against evolving cyber threats.
 
@@ -18,8 +17,7 @@ This repository contains a Convolutional Neural Network (CNN)-based system desig
 - his file providing an overview of the project.
 
 ## Dataset
-- **SDN DDoS Dataset:** Used for binary classification of DDoS vs. normal traffic.
-- **SDN Flow Dataset:** Utilized for multi-class classification of traffic types.
+- **SDN DDoS Dataset:** Utilized for multi-class classification of traffic types.
 
 ## Future Improvements
 - Enhance model efficiency and performance metrics.
