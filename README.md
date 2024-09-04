@@ -8,13 +8,12 @@ This repository contains a Convolutional Neural Network (CNN)-based system desig
 ## Key Features
 - **Multi-class Classification:** Successfully classified traffic types (TCP, UDP, BENIGN) with >95% accuracy in the SDN Flow dataset.
 - **Performance Evaluation:** Confusion matrices and ROC curves demonstrate robust performance, minimizing false positives and maximizing true positives.
-- **Real-world Deployment:** Includes plans for integration with mitigation strategies to enhance SDN network resilience against evolving cyber threats.
+- **Feature Importance Graph** A visual representation ranking features by their significance in predicting DDoS attacks, using a Random Forest classifier to highlight the most critical features for accurate classification in an SDN environment.
 
 ## Repository Structure
 - Jupyter notebook containing CNN model development.
 - Script for data preprocessing using scikit-learn.
 - Dependencies required for running the project.
-- his file providing an overview of the project.
 
 ## Dataset
 - **SDN DDoS Dataset:** Utilized for multi-class classification of traffic types.
